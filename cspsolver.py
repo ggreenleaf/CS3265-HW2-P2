@@ -55,6 +55,7 @@ class cspsolver:
 		#    	if result != failure then return result
 		#		remove {var = value} from assignment
 		# return failure
+		pass
 if __name__ == "__main__":
 	script, fvar,fcon,fc = argv
 	solver = cspsolver(fvar,fcon,fc)
